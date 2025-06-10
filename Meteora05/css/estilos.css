@@ -1,0 +1,48 @@
+@charset"UTF-8";
+
+/* CORES
+preto #000000
+cinzaclaro #CCCCCC
+verde #DAFF01
+lilás #9353FF
+
+*/
+
+
+
+
+/* parte inferior do site */
+
+
+
+
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
